@@ -13,6 +13,36 @@
 
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Interesting Animals</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class = "collapse navbar-collapse" id = "navbarSupportedContent">
+        <ul class = "navbar-nav mr-auto">
+          <li class = "nav-item">
+            <a class = "nav-link active" aria-current = "page" href = "plane.html">Plane</a>
+          </li>
+          <li class = "nav-item">
+            <a class = "nav-link" href = "train.html">Train</a>
+          </li>
+        </ul>
+        <div class="dropdown">
+          <button  type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Dropdown
+      </button>
+      <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="plane.html">Plane</a></li>
+          <li class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="train.html">Train</a></li>
+      </ul>
+           </div>
+    </div>
+      </div>
+    </div>
+  </nav>
     <h3>Animals by Javeed Mohammed</h3>
     <p>My last name Letters are M,O,H,A,M,M </p>
     <div class = "container">
@@ -148,7 +178,7 @@
     <input type = "email" class = "form-control" id = "exampleInputEmail1" aria-describedby = "emailHelp">
   </div>
   <div class="form-group">
-    <label for = "exampleInputPassword1" class = "form-label">Animal</label>
+    <label for = "exampleInputPassword1" class = "form-label">animal</label>
     <input type = "text" class = "form-control" id = "exampleInputPassword1" placeholder = "Enter your animal">
   </div>
   <div class="form-check">
@@ -157,6 +187,38 @@
   </div>
   <button type = "submit" class = "btn btn-primary">Submit</button>
 </form>
+
+<br>
+<h2>Card Images</h2>
+<div class="container">
+<div class="card-group">
+<div class="card img-fluid col-sm-2" style="width: 300px">
+  <img src="monkeyjpg.jpg" class="card-img-top" alt="Monkey">
+  <div class="card-body">
+    <h5 class="card-title">Monkey</h5>
+    <p class="card-text">monkeys are not good pets. Yes, some can be quite sweet for a time.</p>
+    <a href="https://en.wikipedia.org/wiki/Monkey" class="btn btn-primary">Info of Monkey</a>
+  </div>
+</div>
+<div class="card img-fluid col-sm-2" style="width: 18rem">
+  <img src="octopus.jpg" class="card-img-top" alt="octopus">
+  <div class="card-body">
+    <h5 class="card-title">octopus</h5>
+    <p class="card-text">each of 8 arms has a mini-brain that allows it to act independently</p>
+    <a href="https://en.wikipedia.org/wiki/Octopus" class="btn btn-primary">Info of Octopus</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem">
+  <img src="horse.jpg" class="card-img-top" alt="horse">
+  <div class="card-body">
+    <h5 class="card-title">horse</h5>
+    <p class="card-text">Horses are generally strong enough to carry more than 300 pounds on their back, </p>
+    <a href="https://en.wikipedia.org/wiki/Horse" class="btn btn-primary">Info of Horse</a>
+  </div>
+</div>
+</div>
+</div>
+
 
 </body>
 </html>
